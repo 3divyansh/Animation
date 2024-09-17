@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "gilroy";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+   
+}
+#back{
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+   
+}
+#back img{
+   width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+   
+}
+.play{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    max-width: 1920px;
+    
+   
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navleft , .navright{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.navleft > img{
+    width: 100px;
+    height: 100px;
+}
+.navleft > a{
+    pointer-events: all;
+   text-decoration: none;
+   font-size: .8em;
+   font-weight: 600;
+   
+   text-transform: uppercase;
+}
+
+.navright > a{
+    pointer-events: all;
+    text-decoration: none;
+    font-size: .8em;
+    font-weight: 600;
+    
+    text-transform: uppercase;
+ } 
+ .hero{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0% , -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+ }
+ .hright{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 20%;
+       
+ }
+ .hleft{ 
+    min-width: 50%;
+   
+   
+ }
+ .hleft .heading h1{
+    line-height: .9;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-family: "kajiro";
+    font-weight: 100;
+    font-size: 10vw;
+ }
+ .hleft .heading{
+    height: 8vw;
+    overflow: hidden;
+    
+ }
+  
+ a:link{
+    list-style: none;
+ }
+ .hright p{
+    text-align: right;
+    font-size: .9vw;
+    font-weight: 300;
+ }
+.hright .img{
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-image: url(/img/photos2.webp);
+    background-position: center;
+    background-size: cover;
+    
+}
+.hright p:nth-child(3){
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.hright img{
+    width: 100%;
+    height: 150px;
+}
